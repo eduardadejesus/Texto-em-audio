@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+        background-image: linear-gradient(to right, rgb(56, 239, 245), rgb(17, 120, 134), #0e4c9e);
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-image: linear-gradient(to right,  rgb(56, 239, 245), rgb(17, 120, 134), #0e4c9e);
+        padding: 30px;
+        text-align: center;
+    }
+    main {
+        text-align: center;
+
+    }
+
+    textarea {
+        border: 2px solid rgb(0, 0, 0);
+        background: transparent;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 17px;
+        color: #000;
+        width: 300px;
+        height: 100px;
+        outline: 0;
+    }
+
+    select, button {
+        display: block;
+        width: 300px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        background: transparent;
+        padding: 10px;
+        margin: 10px auto;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 17px;
+        outline: 0;
+    }
+
+    option {
+        background-color: #e0d9d9;
+
+    }
+
+    select:disabled, button:disabled {
+        opacity: .1;
+    }
